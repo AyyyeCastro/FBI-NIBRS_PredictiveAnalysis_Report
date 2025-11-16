@@ -34,6 +34,12 @@ PNG copies and a downloadable PDF are included in this repo.
 ## Forecasted [Total] Offenses VS FBI NIBRS 2019 Data
 ![Dashboard](REPORT-MATERIALS/powerBI_dashboard/PNG/powerBI_dashboard_toPNG-1.png)
 ## Linear VS Autoregressive MAE & Accuracy [Total] 
+While the accuracy gap between the Linear and Autoregression Models are only 8.02 percentage points off, it's important to look at the scoring like a test. The Autoregression Model had a forecasting accuracy of 91.69% for total offenses, which means it predicted 8.31% of them inaccurately (errors).  Meanwhile, the Linear Regression Model had a forecasting accuracy of 83.67% for total offenses. Again, this means it predicted 16.33% of them inaccurately (errors). 
+
+This means that despite the 8.02 accuracy gap between the two models, the Linear Regression Model also had double the error rate in predictive capability for the 'Total Offenses' dataset (16.33% vs 8.31%). That is the error magnatitude value of 96.58%.
+
 ![Dashboard](REPORT-MATERIALS/powerBI_dashboard/PNG/powerBI_dashboard_toPNG-3.png)
 ## Linear VS Autoregressive MAE & Accuracy [Homicide] 
+As previously outlined, despite the 9.18 percentage point difference, the error rate of each model is a layer which must be considered. With the Linear Regression mMdel producing approximately 65.76% more errors in forecasting capability for the 'Homicide Offenses' dataset, than the Autoregression Model. That is the error magnatitude value of 65.76% displayed.
+
 ![Dashboard](REPORT-MATERIALS/powerBI_dashboard/PNG/powerBI_dashboard_toPNG-4.png)
